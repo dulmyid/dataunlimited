@@ -1122,21 +1122,7 @@ Data Unlimited Group
             this.setValue(0);
         }
         static get defaultCSS() {
-            return unindent `
-      .dataunlimitednoreload {
-        position: fixed;
-        display: block;
-        top: 0;
-        left: 0;
-        height: 3px;
-        background: #0076ff;
-        z-index: 9999;
-        transition:
-          width ${ProgressBar.animationDuration}ms ease-out,
-          opacity ${ProgressBar.animationDuration / 2}ms ${ProgressBar.animationDuration / 2}ms ease-in;
-        transform: translate3d(0, 0, 0);
-      }
-    `;
+            return unindent
         }
         show() {
             if (!this.visible) {
