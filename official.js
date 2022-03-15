@@ -1123,7 +1123,7 @@ Data Unlimited Group
         }
         static get defaultCSS() {
             return unindent `
-      .turbo-progress-bar {
+      .dataunlimitednoreload {
         position: fixed;
         display: block;
         top: 0;
